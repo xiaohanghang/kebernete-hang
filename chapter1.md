@@ -11,9 +11,11 @@ Kubernetes主要由以下几个核心组件组成：
 
 6. Container runtime负责镜像管理以及Pod和容器的真正运行（CRI） ；
 
-7. kube-proxy负责为Service提供cluster内部的服务发现和负载均衡；
+7. kube-proxy负责为Service提供cluster内部的服务发现和负载均衡；![](/assets/import.png)![](/assets/import1.png)
 
-![](/assets/import.png)
+
+
+
 
 
 
