@@ -13,9 +13,9 @@ Kubernetes主要由以下几个核心组件组成：
 
 7. kube-proxy负责为Service提供cluster内部的服务发现和负载均衡；![](/assets/import.png)![](/assets/import1.png)
 
+# pod基本概念
 
-
-
+Pod是一组紧密关联的容器集合，它们共享IPC、Network和UTC namespace，是Kubernetes调度的基本单位。Pod的设计理念是支持多个容器在一个Pod中共享网络和文件系统，可以通过进程间通信和文件共享这种简单高效的方式组合完成服务。
 
 
 
