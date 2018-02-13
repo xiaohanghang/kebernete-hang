@@ -13,5 +13,7 @@ Kubernetes主要由以下几个核心组件组成：
 
 7. kube-proxy负责为Service提供cluster内部的服务发现和负载均衡；
 
+![](/assets/import.png)
+
 
 
